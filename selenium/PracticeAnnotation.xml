@@ -1,0 +1,13 @@
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="annotation 1">
+        <classes>
+            <class name="testng.demo.AnnotationBeforeAfter"/>
+        </classes>
+    </test>
+    <test name="annotation 2">
+        <classes>
+            <class name="testng.demo.RunningTestCaeseInTestNG"/>
+        </classes>
+    </test>
+</suite>

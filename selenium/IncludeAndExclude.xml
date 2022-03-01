@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="personal loan">
+        <classes>
+            <class name="testng.demo.PersonalLoan1">
+                <methods>
+                    <include name="webLogInHomeLoan"/>
+                </methods>
+            </class>
+            <class name="testng.demo.PersonalLoan2"/>
+        </classes>
+    </test>
+    <test name="car loan">
+            <classes>
+                <class name="testng.demo.CarLoan">
+                    <methods>
+                        <exclude name="webLogInCarLoan"/>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+</suite>

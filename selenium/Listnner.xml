@@ -1,0 +1,10 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="listner">
+        <Listners>
+            <Listner class="testing.demo.Listner"/>
+        </Listners>
+        <classes>
+            <class name="testng.demo.SampleListner"/>
+        </classes>
+    </test>
+</suite>
